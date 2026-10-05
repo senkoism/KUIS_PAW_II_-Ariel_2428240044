@@ -16,7 +16,7 @@
 ## Contoh body POST
     /fakultas   {"nama":"Fakultas Teknik"}
     /prodi      {"nama":"Akuntansi","jenjang":"S1","fakultasId":2}
-    /mahasiswa  {"nim":"2023003","nama":"Andi","prodiId":1}
-    /dosen      {"nama":"Rina, M.T","nip":"199001012015012001","prodiId":1}
+    /mahasiswa  {"npm":"2428240044","nama":"Ariel","prodiId":1}
+    /dosen      {"nama": 'Nur Rachmat, M.Kom', "nip": '172501', "prodiId": 2}
 
 Data disimpan di array (in-memory), hilang saat server restart.
